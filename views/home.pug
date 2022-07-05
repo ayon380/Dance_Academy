@@ -1,0 +1,40 @@
+extends base.pug
+block scripts 
+    script(src='/Exodus/script.js')
+block style 
+    style 
+        include ../Exodus/style.css 
+block content
+    section#intro 
+        h1 Juilliard School
+        p 
+            | Founded in 1905, The Juilliard School is a world leader in performing arts education. The school’s mission is to | provide the highest caliber of artistic education for gifted musicians, dancers, and actors from around the world so that they may achieve their fullest potential as artists, leaders, and global citizens.
+    section#Dance 
+        h1 Dance
+        p 
+            | "Juilliard dancers speak the language of movement fluently, are grounded in classical ballet and modern techniques, and have structure and discipline in their bodies. They are also creative thought leaders who can deconstruct those techniques and develop their own original artistic voices to answer challenging questions through music and movement exploration."
+    section#Music 
+        h1 Music            
+        p 
+            | "At Juilliard, musicianship and artistry are developed as a means to engage and inspire our local and global communities. Our students learn that the pursuit of life as both artist and citizen is the necessary foundation upon which an impactful career is built. Juilliard creates countless pathways for students to explore, but it is the calling of their artistry as performers and creators that compels them to embark on the journey.
+            We are a community of artists who believe in the power of music to express ourselves, to improve and empower the lives of others, and to promote a culture of empathy in the world around us."
+    section#Drama 
+        h1 Drama 
+        p 
+            | "A place where all of us are free to aspire and work towards becoming our best selves, as artists and as people, a diverse and inclusive place where even uncomfortable conversations can be had without fear, a place where the bar is high and there is a path to reach it through hard work, creative opportunity, and faculty guidance and mentorship. We, as a community, work every day to make Juilliard Drama that place."
+    section#End 
+        p 
+            | The Juilliard School 
+            br
+            | 60 Lincoln Center Plaza 
+            br
+            | New York, NY 10023
+            br
+            | 212-799-5000
+        .logo
+            a(href="https://www.instagram.com/" target="_blank")
+                img(src="https://img.icons8.com/color/48/000000/instagram-new--v2.png")
+            a(href="https://www.facebook.com/home.php" target="_blank")
+                img(src="https://img.icons8.com/color/48/000000/facebook-new.png")
+            a(href="https://twitter.com/" target="_blank")
+                img(src="https://img.icons8.com/color/48/000000/twitter--v1.png")

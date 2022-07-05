@@ -1,0 +1,72 @@
+@font-face {
+    font-family: "Product Sans Regular";
+    src: url(\Product\ Sans\ Regular.ttf);
+}
+
+@font-face {
+    font-family: "Product Sans Bold";
+    src: url(Product\ Sans\ Bold.ttf);
+}
+
+@font-face {
+    font-family: "Product Sans Italic";
+    src: url(Product\ Sans\ Italic.ttf);
+}
+
+@font-face {
+    font-family: "Product Sans Bold Italic";
+    src: url(Product\ Sans\ Bold\ Italic.ttf);
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    font-family: Product Sans Regular;
+}
+
+h1 {
+    padding-top: 250px;
+    text-align: center;
+    color: rgb(255, 231, 95);
+    font-size: 100px;
+    font-weight: regular;
+}
+
+.formm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+
+}
+
+.myinput {
+    /* margin: auto; */
+    border: 2px solid gold;
+    width: 30%;
+    padding: 5px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.btn {
+    margin-top: 40px;
+    font-size: 30px;
+    border: 2px solid gold;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 250px;
+    background-color: gold;
+}
+.btn:hover{
+    background-color: goldenrod;
+}
+.container{
+    padding-top: 50px;
+    background: url('/Exodus/c2d.jpg') center
+     no-repeat;
+     height: 1000px;
+     
+}

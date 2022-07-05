@@ -1,0 +1,19 @@
+extends base.pug
+
+block scripts 
+    script(src='/Exodus/script.js')
+block style 
+    style 
+        include ../Exodus/style.css 
+        include ../Exodus/StyleContact.css
+block content 
+    div.container
+        h1 Contact Us
+        form(action="/contact",method="post",class="formm")
+            input(type="text",class="myinput",name="name",placeholder="Name")
+            input(type="phone",class="myinput",name="phone",placeholder="Phone No")
+            input(type="email",class="myinput",name="email",placeholder="Email ID")
+            input(type="text",class="myinput",name="address",placeholder="Address")
+            input(type="text",class="myinput",name="more",placeholder="More About You")
+            button(class="btn")
+                | Submit
